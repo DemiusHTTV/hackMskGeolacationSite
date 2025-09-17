@@ -66,7 +66,7 @@ export default {
     },
     methods: {
         handleLogin() {
-            // Логика входа
+            
             // console.log('Login:', {
             //     email: this.loginEmail,
             //     password: this.loginPassword
@@ -74,7 +74,7 @@ export default {
             this.$router.push('/main')
         },
         handleRegister() {
-            // Логика регистрации
+            
             console.log('Register:', {
                 email: this.RegestrationEmail,
                 password: this.RegestrationPasswor,
