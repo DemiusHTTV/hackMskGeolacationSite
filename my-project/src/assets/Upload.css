@@ -1,0 +1,97 @@
+   .upload-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .upload-title {
+            font-size: 28px;
+            color: #2563eb;
+            margin-bottom: 20px;
+        }
+        
+        .upload-area {
+            width: 100%;
+            max-width: 600px;
+            height: 250px;
+            border: 3px dashed #2563eb;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 0 auto;
+            background: #f8f9fa;
+        }
+        
+        .upload-area:hover {
+            background: #f0f0ff;
+            transform: translateY(-5px);
+        }
+        
+        .upload-icon {
+            font-size: 70px;
+            color: #2563eb;
+            margin-bottom: 20px;
+        }
+        
+        .upload-text {
+            font-size: 18px;
+            color: #666;
+        }
+        
+       
+        
+        .stats-title {
+            font-size: 28px;
+            color: #2563eb;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-icon {
+            font-size: 40px;
+            color: #6a11cb;
+            margin-bottom: 15px;
+        }
+        
+        .stat-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2575fc;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 16px;
+            color: #666;
+        }
+        .main-upload-section{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width:100%;
+        }
+      
+        
