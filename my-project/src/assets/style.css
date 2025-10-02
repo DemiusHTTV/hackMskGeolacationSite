@@ -1,0 +1,49 @@
+.Image-data-container{
+   
+    height:50%
+}
+.left-container-for-image, .right-container-for-data{
+    width: 50%;
+    height: 100%;
+
+
+}
+.Image-data-container {
+  display: flex;
+ 
+  height: 50vh;
+}
+
+.left-container-for-image, .right-container-for-data {
+  width: 50%;
+  height: 100%;
+  
+}
+.img-box{
+      background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: all 0.3s;
+}
+
+.right-container-for-data {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.activation-info {
+  margin-bottom: 20px;
+}
+
+.data-content {
+  flex-grow: 1;
+  background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: all 0.3s;
+}

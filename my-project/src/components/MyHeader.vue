@@ -20,7 +20,7 @@
                                 <i class="fas fa-history"  @click="ViewYourHistory()"></i>
                                 <span>История</span>
                             </div>
-                            <div class="menu-item"  @click="GoExit()">
+                            <div class="menu-item"  @click="GoNext()">
                                 <i class="fas fa-sign-out-alt"></i>
                                 <span>Выход</span>
                             </div>
@@ -41,7 +41,7 @@ export default{
         ]
 
     },
-    method:{
+    methods:{
         ChangeYourProfile(){
            return this.$router.push('/changeprofile')
 
@@ -53,6 +53,9 @@ export default{
         GoExit(){
            return this.$router.push('/')
 
+        },
+        GoNext(){
+            return this.$router.push('/upload')
         }
 
     }
